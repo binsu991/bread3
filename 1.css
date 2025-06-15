@@ -1,0 +1,260 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+/* font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-style: inherit;
+    font-weight: normal;
+    text-decoration: none;
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    height: 95px;
+    background-color: rgba(0, 75, 36, .5);
+    position: fixed;
+    z-index: 1000;
+}
+header>img{
+    width: 100%;
+    margin-top: 1rem;
+    object-fit: contain;
+    position: fixed;
+    z-index: -1000;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: white;
+    font-size: 1.8rem;
+    line-height: 9.5rem;
+    font-weight: 500;
+}
+.logo{
+    margin-right: 22.4rem;
+    margin-left: 22.4rem;
+    margin-top: 1rem;
+    display: inline-block;
+}
+.logo img{
+    width: 100%;
+}
+.a_left{
+    margin-left: 15rem;
+}
+.a_right{
+    margin-right: 15rem;
+}
+.first video{
+    width: 100%;
+}
+.line{
+    width: 100%;
+}
+.second{
+    align-items: center;
+    justify-content: center;
+    height: 55.3rem;
+    display: block;
+    position: relative;
+}
+.box{
+    display: flex;
+    position: absolute;
+    top: 10rem;
+    left: 34rem;
+}
+.right{
+    width: 43.6rem;
+    height: 35.6rem;
+}
+.right img{
+    width: 100%;
+}
+.left{
+    width: 69.7rem;
+    height: 29.5rem;
+    margin-right: 11rem;
+    margin-top: 3rem;
+}
+.left h2{
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin-bottom: 2.8rem;
+    line-height: 3.4rem;
+}
+.left p{
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 3.4rem;
+}
+#bottom{
+    position: absolute;
+    bottom: 0;
+}
+#top{
+    position: absolute;
+    top: 0;
+}
+.third{
+    background-image: url(종이.png);
+    width: 100%;
+    height: 231.3rem;
+}
+.third .best{
+    width: 49.2rem;
+    height: 13.6rem;
+    /* margin-top: 14.4rem; */
+    margin-left: 71.4rem;
+    padding-top: 14.4rem;
+    padding-bottom: 10rem;
+}
+.third .best img{
+    width: 100%;
+}
+.st1,
+.st2,
+.st3
+{
+    display: flex;
+    width: 144rem;
+    height: 61.4rem;
+    margin: 3rem 24rem;
+}
+.st1 .left{
+    width: 56.4rem ;
+    height: 53.1rem;
+    margin-top: 9.8rem;
+    margin-left: 15.5rem;
+}
+.st1 .left img{
+    width: 100% ;
+}
+.st1 .right{
+    width: 41.6rem;
+    height: 32.4rem;
+    margin-top: 14.5rem;
+    margin-right: 21.6rem;
+}
+.st1 .right img{
+    width: 100% ;
+}
+.st2 .right{
+    width: 56.4rem ;
+    height: 53.1rem;
+    margin-top: 9.8rem;
+    margin-right: 15.5rem;
+}
+.st2 .left img{
+    width: 100% ;
+}
+.st2 .left{
+    width: 41.6rem;
+    height: 32.4rem;
+    margin-top: 14.5rem;
+    margin-left: 21.6rem;
+}
+.st2 .right img{
+    width: 100% ;
+}
+.st3 .left{
+    width: 56.4rem ;
+    height: 53.1rem;
+    margin-top: 9.8rem;
+    margin-left: 15.5rem;
+}
+.st3 .left img{
+    width: 100% ;
+}
+.st3 .right{
+    width: 41.6rem;
+    height: 32.4rem;
+    margin-top: 14.5rem;
+    margin-right: 21.6rem;
+}
+.st3 .right img{
+    width: 100% ;
+}
+.four{
+    background: url(창업찐.svg);
+    width: 100%;
+    height: 64.5rem;
+    text-align: center;
+    padding-top: 193px;
+}
+.four h2{
+    font-size: 4.8rem;
+    color: #fff;
+    font-weight: 500;
+}
+.four p{
+    font-size: 2.5rem;
+    color: #fff;
+    line-height: 3.3rem;
+    margin-top: 3rem;
+    font-weight: 100;
+}
+.button a{
+    font-size: 2.4rem;
+    padding: 1.3rem 5rem;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 6rem;
+}
+.button li{
+    border: 2px solid white;
+    width: 26rem;
+    height: 6rem;
+}
+.button{
+    margin-top: 7rem;
+    width: 108.7rem;
+    height: 6rem;
+    margin: 7rem auto;
+}
+.button ul li:hover{
+    background-color: #fff;
+}
+.button ul li a:hover{
+    color: rgb(0, 75, 36);;
+}
+.five{
+    width: 100%;
+    height: 78.4rem;
+    text-align: center;
+    padding: auto;
+    justify-content: center;
+}
+.five .five_left{
+    width: 48rem;
+    height: 47.8rem;
+}
+.five .five_left iframe{
+    width: 100%;
+}
+.five_box .five_right .txt_box{
+    width: 65rem;
+    height: 20rem;
+    background-color: rgba(186, 186, 185, .5);
+}
+.five_box{
+    display: flex;
+}
+.img_box{
+    display: flex;
+}
+.img_box a{
+    width: 21.4;
+    height: 20rem;
+}
+.img_box a img{
+    width: 100%;
+}
